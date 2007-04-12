@@ -1,7 +1,7 @@
 #include noise parameters to be used in case UseCalibDataFromDB=false
 include "CommonTools/SiStripZeroSuppression/data/SiStripNoiseService.cfi"
 
-module siStripClusterInfoProducer = SiStripClusterInfoProducer{
+module siStripClusterInfo = SiStripClusterInfoProducer{
     string ClusterProducer = "siStripClusters"
     string ClusterLabel    = "\0"
 
